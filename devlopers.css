@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 1260px;
+    height: 100vh;
+    background-image: url('https://news.microsoft.com/wp-content/uploads/prod/sites/430/2021/09/TownHall-Airmap.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(7.5px);
+    background-attachment: relative;
+}
+.buttons{
+    text-align: center;
+    background-position: center;
+    border: solid;
+    width: 80%;
+    height: 15%;
+    margin: 1% 10%;
+    background: transparent;
+    border-radius: 20px;
+    position:absolute;
+}
+.buttons menu{
+    background: transparent;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons ul{
+    display: inline-flex;
+    list-style: none;
+    color: #FFF;
+}
+.buttons ul li{
+    font-size: 13px;
+    width: 50%;
+    margin: 20px;
+    padding: 15px 70px;
+}
+.buttons ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+img{
+    width: 70%;
+    height: 2%;
+    margin:15% 15%;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+.container table{
+    border: solid rgb(54, 199, 10);
+    border-radius: 30px;
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    margin-bottom: 35%;
+    padding:15px;
+    background:transparent;
+}
+.container table tr th{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    padding: 1%;
+    border: solid #000000;
+}
